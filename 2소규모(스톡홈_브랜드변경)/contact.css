@@ -1,0 +1,25 @@
+.contact1{text-align: center; padding-top: 100px; padding-bottom: 100px;}
+.contact1 .container{display: flex;}
+.contact1 .item{width: 33.3%; }
+.contact1 .item h4{font-family: "Bodoni Moda", serif; text-transform: uppercase; font-weight: 400; }
+.contact1 .item a{display: block; font-weight: 200; padding-top: 10px;}
+
+.contact2{margin-bottom: 120px;}
+.contact2 .container{
+    text-align: center; max-width: 600px;
+    display: grid; grid-template-columns: repeat(2,1fr); gap: 10px;
+}
+.contact2 .item{
+    background-color: gold;
+}
+.contact2 .item5{
+    grid-column: 2 span;
+}
+.contact2 .item6{ grid-column: 2 span;}
+
+@media(max-width:800px){
+    .contact1 .container{display: block;}
+    .contact1 .item{width: 100%; margin-bottom: 30px;}
+    .contact2 .container{grid-template-columns: repeat(1, 1fr);}
+    .contact2 .item{grid-column: auto;}
+}
