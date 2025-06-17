@@ -1,0 +1,38 @@
+.about1{padding-top: 100px;}
+.about1 .container{max-width: 600px; text-align: center;}
+.about1 .container h4{font-size: 30px; font-weight: 400; text-transform: uppercase; font-family: "Bodoni Moda", serif;
+}
+.about1 p{padding-bottom: 30px;}
+
+.about1 .container .btn{
+    position: absolute; 
+    bottom: 0%; left: 50%;  transform: translatex(-50%);
+}
+.section2:hover .btn{}
+
+
+.about2{padding-top: 120px; padding-bottom: 120px;}
+.about2 .container{display: grid; grid-template-columns: repeat(2,1fr); gap: 30px;}
+.about2 .item{}
+.about2 .item .text-box{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background-color: #fff; padding: 20px; text-align: center; width: 50%; height: 25px;
+    font-family: "Bodoni Moda", serif;
+}
+.about2 .item .text-box h3{
+    font-size: 20px;
+    font-weight: 400; text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media(max-width:800px){
+    .about2 .container{grid-template-columns: repeat(1, 1fr);}
+}
+
+.about3{padding-top: 50px; padding-bottom: 120px;}
+.about3 .container{text-align: center; }
+.about3 img{width: 20px; left: 50%; transform: translate(-50%); margin-bottom: 30px;}
+.about3 h4{font-family: "Bodoni Moda", serif; font-weight: 400;}
+.about3 p{ line-height: 26px;}
+.about3 .left{ font-size: 20px; position: absolute; top: 40%; left: 100px;}
+.about3 .right{font-size: 20px; position: absolute; top: 40%; right: 100px;}
